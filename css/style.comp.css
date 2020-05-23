@@ -1,0 +1,120 @@
+@font-face {
+  font-family: "Oswald";
+  src: url("./assets/fonts/Oswald-Regular.ttf");
+  src: url("./assets/fonts/Oswald-Regular.ttf") format("ttf"), url("./assets/fonts/Oswald-Regular.ttf") format("truetype"); }
+
+.header-hero {
+  color: white;
+  font-family: "Oswald";
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 7em; }
+  @media (max-width: 575.98px) {
+    .header-hero {
+      font-size: 4.5em; } }
+
+.p-big {
+  font-size: 1.6em; }
+
+.p-medium {
+  font-size: 1.3em; }
+
+.heading {
+  background-color: transparent;
+  width: max-content;
+  padding: 0.5rem 1rem;
+  border-radius: 0px 1rem 0rem 1rem;
+  transition: all 0.4s ease-in-out; }
+  @media (max-width: 830px) {
+    .heading {
+      width: fit-content; } }
+
+.heading-wrap:hover > .heading {
+  background-color: rgba(47, 233, 208, 0.7); }
+
+.mt-10 {
+  margin-top: 7rem; }
+
+.content {
+  padding: 1rem;
+  border-radius: 5px; }
+  .content:hover {
+    background-color: rgba(47, 233, 208, 0.7); }
+
+.carousel-pic {
+  height: 16rem;
+  background-size: cover;
+  background-position: center; }
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0; }
+  .no-gutters > .col,
+  .no-gutters > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0; }
+
+.background {
+  height: 100vh;
+  background-image: url(../assets/pictures/images/garden.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: start;
+  align-items: center; }
+  .background-title {
+    font-size: 12px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5rem;
+    background-color: rgba(0, 0, 0, 0.7); }
+    @media (max-width: 575.98px) {
+      .background-title {
+        width: 100%;
+        text-align: center;
+        padding: 0; } }
+
+.footer {
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .footer-text {
+    font-size: 1.4em;
+    text-transform: uppercase;
+    font-family: "Oswald";
+    color: white;
+    font-weight: 300;
+    padding: 0;
+    margin: 0; }
+
+.design {
+  transition: all 0.3s; }
+  .design:hover {
+    transform: translateY(-8px); }
+
+.list {
+  font-size: 1.4em; }
+  .list-item {
+    margin: 1rem 0;
+    list-style: none;
+    transition: all 0.3s ease-in-out;
+    max-width: fit-content;
+    padding: 0.5rem; }
+    .list-item:hover {
+      transform: translateX(1.5rem);
+      background-color: rgba(47, 233, 208, 0.7); }
+
+.background-1 {
+  height: 100vh;
+  background-image: url(../assets/pictures/images/trinitate.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: start;
+  align-items: center; }
+
+.card:hover {
+  border-color: rgba(47, 233, 208, 0.7) !important; }

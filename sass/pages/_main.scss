@@ -1,0 +1,63 @@
+.background {
+    height: 100vh;
+    background-image: url(../assets/pictures/images/garden.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    &-title {
+        font-size: 12px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 5rem;
+        background-color: rgba(0, 0, 0, 0.7);
+        @media (max-width: 575.98px) {
+            width: 100%;
+            text-align: center;
+            padding: 0;
+        }
+    }
+}
+
+.footer {
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &-text {
+        font-size: 1.4em;
+        text-transform: uppercase;
+        font-family: "Oswald";
+        color: white;
+        font-weight: 300;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.design {
+    transition: all 0.3s;
+    &:hover {
+        transform: translateY(-8px);
+    }
+}
+
+.list{
+    font-size: 1.4em;
+    &-item{
+        margin: 1rem 0;
+        list-style: none;
+        transition: all 0.3s ease-in-out;
+        max-width: fit-content;
+        padding: 0.5rem;
+
+        &:hover{
+            transform: translateX(1.5rem);
+            background-color: rgba(47, 233, 208, 0.7);
+        }
+    }
+}

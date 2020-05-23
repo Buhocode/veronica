@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "Oswald";
+    src: url("./assets/fonts/Oswald-Regular.ttf");
+    src: url("./assets/fonts/Oswald-Regular.ttf") format("ttf"),
+        url("./assets/fonts/Oswald-Regular.ttf") format("truetype");
+}
+
+.header-hero {
+    color: white;
+    font-family: "Oswald";
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 7em;
+    @media (max-width: 575.98px) {
+        font-size: 4.5em;
+    }
+}
+.p {
+    &-big {
+        font-size: 1.6em;
+    }
+    &-medium {
+        font-size: 1.3em;
+    }
+}
+
+.heading {
+    background-color: transparent;
+    width: max-content;
+    padding: 0.5rem 1rem;
+    border-radius: 0px 1rem 0rem 1rem;
+    transition: all 0.4s ease-in-out;
+
+    @media (max-width: 830px) {
+        width: fit-content;
+    }
+}
+
+.heading-wrap {
+    &:hover {
+        & > .heading {
+            background-color: rgba(47, 233, 208, 0.7);
+        }
+    }
+}
