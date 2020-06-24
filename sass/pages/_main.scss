@@ -24,21 +24,25 @@
 }
 
 .footer {
-    height: 5rem;
+    height: 3rem;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     &-text {
-        font-size: 1.4em;
+        font-size: 0.8em;
         text-transform: uppercase;
         font-family: "Oswald";
-        color: white;
-        font-weight: 300;
+        color: white !important;
+        font-weight: 400;
+        letter-spacing: 0.5rem;
         padding: 0;
         margin: 0;
+        margin-right: 3rem;
+        &:hover{
+            cursor: pointer;
+        }
     }
 }
-
 .design {
     transition: all 0.3s;
     &:hover {
@@ -57,7 +61,8 @@
 
         &:hover{
             transform: translateX(1.5rem);
-            background-color: rgba(47, 233, 208, 0.7);
+            background-color: $color-green;
+            color: white;
         }
     }
 }

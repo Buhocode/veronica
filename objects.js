@@ -32,7 +32,15 @@ var list = [
         description: 'Fraccionamiento Milos'
     },
     {
+        link: './assets/pictures/images/jardin2.JPG',
+        description: 'Fraccionamiento Milos en progreso'
+    },
+    {
         link: './assets/pictures/images/jardin3.JPG',
+        description: 'Fraccionamiento Milos'
+    },
+    {
+        link: './assets/pictures/images/jardin4.jpg',
         description: 'Fraccionamiento Milos'
     },
     {
@@ -72,6 +80,10 @@ var list = [
         description: 'Showgarden'
     },
     {
+        link: './assets/pictures/images/showgarden2.jpg',
+        description: 'Showgarden'
+    },
+    {
         link: './assets/pictures/images/natural.jpg',
         description: 'Showgarden'
     },
@@ -81,6 +93,26 @@ var list = [
     },
     {
         link: './assets/pictures/images/sji3.JPG',
+        description: 'San Jose de Iturbide'
+    },
+    {
+        link: './assets/pictures/images/sji4.JPG',
+        description: 'San Jose de Iturbide'
+    },
+    {
+        link: './assets/pictures/images/sji5.JPG',
+        description: 'San Jose de Iturbide'
+    },
+    {
+        link: './assets/pictures/images/sji6.jpg',
+        description: 'San Jose de Iturbide'
+    },
+    {
+        link: './assets/pictures/images/sji7.jpg',
+        description: 'San Jose de Iturbide'
+    },
+    {
+        link: './assets/pictures/images/sji8.jpg',
         description: 'San Jose de Iturbide'
     },
     {
@@ -104,8 +136,28 @@ var list = [
         description: 'Departamentos Virreyes'
     },
     {
+        link: './assets/pictures/images/virreyes3.jpg',
+        description: 'Departamentos Virreyes'
+    },
+    {
         link: './assets/pictures/images/trinitate.JPG',
         description: 'Uso de macetas'
+    },
+    {
+        link: './assets/pictures/images/sn1.jpg',
+        description: 'Sendas del Naranjo'
+    },
+    {
+        link: './assets/pictures/images/tm2019.jpg',
+        description: 'Hospital Tec Milenio'
+    },
+    {
+        link: './assets/pictures/images/tm20192.jpg',
+        description: 'Hospital Tec Milenio'
+    },
+    {
+        link: './assets/pictures/images/tm20193.jpg',
+        description: 'Hospital Tec Milenio'
     },
 ];
 
