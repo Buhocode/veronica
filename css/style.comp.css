@@ -6,13 +6,36 @@ body {
   src: url("../assets/fonts/Oswald-Regular.ttf");
   src: url("../assets/fonts/Oswald-Regular.ttf") format("ttf"), url("../assets/fonts/Oswald-Regular.ttf") format("truetype"); }
 
+@font-face {
+  font-family: "Butler";
+  src: url("../assets/fonts/Butler_Regular.otf");
+  font-weight: 400; }
+
+@font-face {
+  font-family: "Butler";
+  src: url("../assets/fonts/Butler_Light.otf");
+  font-weight: 300; }
+
+@font-face {
+  font-family: "Butler";
+  src: url("../assets/fonts/Butler_Medium.otf");
+  font-weight: 500; }
+
+@font-face {
+  font-family: "Butler";
+  src: url("../assets/fonts/Butler_Black.otf");
+  font-weight: 600; }
+
+@font-face {
+  font-family: "Butler";
+  src: url("../assets/fonts/Butler_Bold.otf");
+  font-weight: 700; }
+
 .header-hero {
   color: white;
-  font-family: "Oswald";
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 7em;
-  letter-spacing: 0.5rem; }
+  font-family: "Butler";
+  font-weight: 400;
+  font-size: 7em; }
   @media (max-width: 575.98px) {
     .header-hero {
       font-size: 4.5em; } }
@@ -46,7 +69,7 @@ body {
   padding: 1rem;
   border-radius: 5px; }
   .content:hover {
-    background-color: #486163;
+    background-color: #87AA93;
     color: white; }
 
 .carousel-pic {
@@ -131,7 +154,7 @@ body {
 
 .background-2 {
   height: 100vh;
-  background-image: url(../assets/pictures/images/trinitate.JPG);
+  background-image: url(../assets/pictures/images/showgarden.jpg);
   background-position: center;
   background-size: cover;
   display: flex;

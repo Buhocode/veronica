@@ -1,39 +1,39 @@
 var list = [
     {
+        link: './assets/pictures/images/modulo1.JPG',
+        description: 'Modulo de muro verde'
+    },
+    {
+        link: './assets/pictures/images/modulo2.jpg',
+        description: 'Modulo de muro verde'
+    },
+    {
+        link: './assets/pictures/images/sji8.jpg',
+        description: 'San José de Iturbide'
+    },
+    {
         link: './assets/pictures/images/showgarden.jpg',
-        description: 'Showgarden'
+        description: 'Showgarden SA'
     },
     {
         link: './assets/pictures/images/showgarden2.jpg',
-        description: 'Showgarden'
+        description: 'Showgarden SA'
     },
     {
         link: './assets/pictures/images/natural.jpg',
-        description: 'Showgarden'
+        description: 'Showgarden SA'
     },
     {
         link: './assets/pictures/images/garden.jpg',
-        description: 'Jardin Key to the Soul'
+        description: 'Showgarden SA'
     },
     {
         link: './assets/pictures/images/garden3.jpg',
-        description: 'Jardin Key to the Soul'
+        description: 'Showgarden SA'
     },
     {
         link: './assets/pictures/images/garden2.jpg',
-        description: 'Jardin Key to the Soul'
-    },
-    {
-        link: './assets/pictures/images/tm2019.jpg',
-        description: 'Hospital HS'
-    },
-    {
-        link: './assets/pictures/images/tm20192.jpg',
-        description: 'Hospital HS'
-    },
-    {
-        link: './assets/pictures/images/tm20193.jpg',
-        description: 'Hospital HS'
+        description: 'Showgarden SA'
     },
     {
         link: './assets/pictures/images/jardin.JPG',
@@ -52,20 +52,32 @@ var list = [
         description: 'Fraccionamiento Milos'
     },
     {
-        link: './assets/pictures/images/madera.jpg',
-        description: 'Muro verde de madera'
+        link: './assets/pictures/images/tm2019.jpg',
+        description: 'Hospital + Querétaro'
     },
     {
-        link: './assets/pictures/images/modulo1.JPG',
-        description: 'Modulo de muro verde'
+        link: './assets/pictures/images/tm20192.jpg',
+        description: 'Hospital + Querétaro'
     },
     {
-        link: './assets/pictures/images/modulo2.jpg',
-        description: 'Modulo de muro verde'
+        link: './assets/pictures/images/tm20193.jpg',
+        description: 'Hospital + Querétaro'
+    },
+    {
+        link: './assets/pictures/images/tab1.JPG',
+        description: 'Fábrica de Tabaco'
+    },
+    {
+        link: './assets/pictures/images/tab2.JPG',
+        description: 'Fábrica de Tabaco'
+    },
+    {
+        link: './assets/pictures/images/tab3.JPG',
+        description: 'Fábrica de Tabaco'
     },
     {
         link: './assets/pictures/images/alegre.jpg',
-        description: 'Jardin de casa en Milenio III'
+        description: 'Casa habitacion Milenio III'
     },
     {
         link: './assets/pictures/images/Bug.JPG',
@@ -85,59 +97,39 @@ var list = [
     },
     {
         link: './assets/pictures/images/dep.JPG',
-        description: 'Un departamento'
+        description: 'Casa muestra en Bugambilia'
     },
     {
-        link: './assets/pictures/images/ele.JPG',
-        description: 'Un deparamento'
-    },
-    {
-        link: './assets/pictures/images/nippo1.jpg',
-        description: 'Casa muestra Nippo'
-    },
-    {
-        link: './assets/pictures/images/nippo2.jpg',
-        description: 'Casa muestra Nippo'
-    },
-    {
-        link: './assets/pictures/images/sji2.JPG',
-        description: 'San Jose de Iturbide'
-    },
-    {
-        link: './assets/pictures/images/sji3.JPG',
-        description: 'San Jose de Iturbide'
+        link: './assets/pictures/images/sn1.jpg',
+        description: 'Sendas del Naranjo'
     },
     {
         link: './assets/pictures/images/sji4.JPG',
-        description: 'San Jose de Iturbide'
+        description: 'Sendas del Naranjo'
     },
     {
         link: './assets/pictures/images/sji5.JPG',
-        description: 'San Jose de Iturbide'
+        description: 'Sendas del Naranjo'
+    },
+    {
+        link: './assets/pictures/images/sji2.JPG',
+        description: 'San José de Iturbide'
+    },
+    {
+        link: './assets/pictures/images/sji3.JPG',
+        description: 'San José de Iturbide'
     },
     {
         link: './assets/pictures/images/sji6.jpg',
-        description: 'San Jose de Iturbide'
+        description: 'San José de Iturbide'
     },
     {
         link: './assets/pictures/images/sji7.jpg',
-        description: 'San Jose de Iturbide'
+        description: 'San José de Iturbide'
     },
     {
-        link: './assets/pictures/images/sji8.jpg',
-        description: 'San Jose de Iturbide'
-    },
-    {
-        link: './assets/pictures/images/tab1.JPG',
-        description: 'Fabrica de Tabaco'
-    },
-    {
-        link: './assets/pictures/images/tab2.JPG',
-        description: 'Fabrica de Tabaco'
-    },
-    {
-        link: './assets/pictures/images/tab3.JPG',
-        description: 'Fabrica de Tabaco'
+        link: './assets/pictures/images/ele.JPG',
+        description: 'San José Iturbide'
     },
     {
         link: './assets/pictures/images/virreyes1.JPG',
@@ -156,8 +148,12 @@ var list = [
         description: 'Uso de macetas'
     },
     {
-        link: './assets/pictures/images/sn1.jpg',
-        description: 'Sendas del Naranjo'
+        link: './assets/pictures/images/nippo1.jpg',
+        description: 'Casa muestra Nippo'
+    },
+    {
+        link: './assets/pictures/images/nippo2.jpg',
+        description: 'Casa muestra Nippo'
     },
 ];
 
