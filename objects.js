@@ -1,5 +1,17 @@
 var list = [
     {
+        link:'./assets/pictures/images/oficina1.jpeg',
+        description: 'Oficinas Milenio III',
+    },
+    {
+        link:'./assets/pictures/images/oficina2.jpeg',
+        description: 'Oficinas Milenio III',
+    },
+    {
+        link:'./assets/pictures/images/oficina3.jpeg',
+        description: 'Oficinas Milenio III',
+    },
+    {
         link: './assets/pictures/images/modulo1.JPG',
         description: 'Modulo de muro verde'
     },
@@ -13,27 +25,27 @@ var list = [
     },
     {
         link: './assets/pictures/images/showgarden.jpg',
-        description: 'Showgarden SA'
+        description: 'Showgarden South Africa'
     },
     {
         link: './assets/pictures/images/showgarden2.jpg',
-        description: 'Showgarden SA'
+        description: 'Showgarden South Africa'
     },
     {
         link: './assets/pictures/images/natural.jpg',
-        description: 'Showgarden SA'
+        description: 'Showgarden South Africa'
     },
     {
         link: './assets/pictures/images/garden.jpg',
-        description: 'Showgarden SA'
+        description: 'Showgarden South Africa'
     },
     {
         link: './assets/pictures/images/garden3.jpg',
-        description: 'Showgarden SA'
+        description: 'Showgarden South Africa'
     },
     {
         link: './assets/pictures/images/garden2.jpg',
-        description: 'Showgarden SA'
+        description: 'Showgarden South Africa'
     },
     {
         link: './assets/pictures/images/jardin.JPG',
@@ -53,15 +65,27 @@ var list = [
     },
     {
         link: './assets/pictures/images/tm2019.jpg',
-        description: 'Hospital + Querétaro'
+        description: 'Torre H+ Querétaro'
     },
     {
         link: './assets/pictures/images/tm20192.jpg',
-        description: 'Hospital + Querétaro'
+        description: 'Torre H+ Querétaro'
     },
     {
         link: './assets/pictures/images/tm20193.jpg',
-        description: 'Hospital + Querétaro'
+        description: 'Torre H+ Querétaro'
+    },
+    {
+        link: './assets/pictures/images/hospital1.jpeg',
+        description: 'Torre H+ Querétaro'
+    },
+    {
+        link: './assets/pictures/images/hospital2.jpeg',
+        description: 'Torre H+ Querétaro'
+    },
+    {
+        link: './assets/pictures/images/hospital3.jpeg',
+        description: 'Torre H+ Querétaro'
     },
     {
         link: './assets/pictures/images/tab1.JPG',
@@ -104,11 +128,11 @@ var list = [
         description: 'Sendas del Naranjo'
     },
     {
-        link: './assets/pictures/images/sji4.JPG',
+        link: './assets/pictures/images/sn2.jpg',
         description: 'Sendas del Naranjo'
     },
     {
-        link: './assets/pictures/images/sji5.JPG',
+        link: './assets/pictures/images/sn3.JPG',
         description: 'Sendas del Naranjo'
     },
     {
@@ -157,10 +181,10 @@ var list = [
     },
 ];
 
-var left = document.getElementsByClassName('left');
-var right = document.getElementsByClassName('right');
+var cards = document.getElementsByClassName('cards');
 
 for (let i = 0; i < list.length; i++) {
+    var wrapper = document.createElement('div');
     var div = document.createElement('div');
     var img = document.createElement('img');
     var text = document.createElement('p');
@@ -176,13 +200,12 @@ for (let i = 0; i < list.length; i++) {
     text.classList.add('card-text');
     card_text.classList.add('card-body');
 
-    card_text.append(text)
-    div.append(img)
-    div.append(card_text)
+    wrapper.classList.add('col-md-5', 'col-sm-12');
 
-    if (i % 2 == 0) {
-        left[0].append(div)
-    } else {
-        right[0].append(div)
-    }
+    card_text.append(text);
+    div.append(img);
+    div.append(card_text);
+    wrapper.append(div);
+
+    cards[0].append(wrapper);
 }
