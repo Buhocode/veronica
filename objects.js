@@ -1,15 +1,19 @@
 var list = [
     {
-        link:'./assets/pictures/images/oficina1.jpeg',
+        link: './assets/pictures/images/oficina1.jpeg',
         description: 'Oficinas Milenio III',
     },
     {
-        link:'./assets/pictures/images/oficina2.jpeg',
+        link: './assets/pictures/images/oficina2.jpeg',
         description: 'Oficinas Milenio III',
     },
     {
-        link:'./assets/pictures/images/oficina3.jpeg',
+        link: './assets/pictures/images/oficina3.jpeg',
         description: 'Oficinas Milenio III',
+    },
+    {
+        link: './assets/pictures/images/sji8.jpg',
+        description: 'San José de Iturbide'
     },
     {
         link: './assets/pictures/images/modulo1.JPG',
@@ -20,11 +24,11 @@ var list = [
         description: 'Modulo de muro verde'
     },
     {
-        link: './assets/pictures/images/sji8.jpg',
-        description: 'San José de Iturbide'
+        link: './assets/pictures/images/garden2.jpg',
+        description: 'Showgarden South Africa'
     },
     {
-        link: './assets/pictures/images/showgarden.jpg',
+        link: './assets/pictures/images/garden3.jpg',
         description: 'Showgarden South Africa'
     },
     {
@@ -40,20 +44,16 @@ var list = [
         description: 'Showgarden South Africa'
     },
     {
-        link: './assets/pictures/images/garden3.jpg',
+        link: './assets/pictures/images/showgarden.jpg',
         description: 'Showgarden South Africa'
-    },
-    {
-        link: './assets/pictures/images/garden2.jpg',
-        description: 'Showgarden South Africa'
-    },
-    {
-        link: './assets/pictures/images/jardin.JPG',
-        description: 'Fraccionamiento Milos'
     },
     {
         link: './assets/pictures/images/jardin2.JPG',
         description: 'Fraccionamiento Milos en progreso'
+    },
+    {
+        link: './assets/pictures/images/jardin.JPG',
+        description: 'Fraccionamiento Milos'
     },
     {
         link: './assets/pictures/images/jardin3.JPG',
@@ -64,6 +64,14 @@ var list = [
         description: 'Fraccionamiento Milos'
     },
     {
+        link: './assets/pictures/images/tm20193.jpg',
+        description: 'Torre H+ Querétaro'
+    },
+    {
+        link: './assets/pictures/images/hospital2.jpeg',
+        description: 'Torre H+ Querétaro'
+    },
+    {
         link: './assets/pictures/images/tm2019.jpg',
         description: 'Torre H+ Querétaro'
     },
@@ -72,15 +80,7 @@ var list = [
         description: 'Torre H+ Querétaro'
     },
     {
-        link: './assets/pictures/images/tm20193.jpg',
-        description: 'Torre H+ Querétaro'
-    },
-    {
         link: './assets/pictures/images/hospital1.jpeg',
-        description: 'Torre H+ Querétaro'
-    },
-    {
-        link: './assets/pictures/images/hospital2.jpeg',
         description: 'Torre H+ Querétaro'
     },
     {
@@ -92,16 +92,12 @@ var list = [
         description: 'Fábrica de Tabaco'
     },
     {
-        link: './assets/pictures/images/tab2.JPG',
-        description: 'Fábrica de Tabaco'
-    },
-    {
         link: './assets/pictures/images/tab3.JPG',
         description: 'Fábrica de Tabaco'
     },
     {
-        link: './assets/pictures/images/alegre.jpg',
-        description: 'Casa habitacion Milenio III'
+        link: './assets/pictures/images/tab2.JPG',
+        description: 'Fábrica de Tabaco'
     },
     {
         link: './assets/pictures/images/Bug.JPG',
@@ -168,8 +164,8 @@ var list = [
         description: 'Departamentos Virreyes'
     },
     {
-        link: './assets/pictures/images/trinitate.JPG',
-        description: 'Uso de macetas'
+        link: './assets/pictures/images/alegre.jpg',
+        description: 'Casa habitacion Milenio III'
     },
     {
         link: './assets/pictures/images/nippo1.jpg',
@@ -178,6 +174,10 @@ var list = [
     {
         link: './assets/pictures/images/nippo2.jpg',
         description: 'Casa muestra Nippo'
+    },
+    {
+        link: './assets/pictures/images/trinitate.JPG',
+        description: 'Uso de macetas'
     },
 ];
 
