@@ -13,11 +13,11 @@ var list = [
     },
     {
         link: './assets/pictures/images/sji8.jpg',
-        description: 'San José de Iturbide'
+        description: 'Módulo de muro verde'
     },
     {
         link: './assets/pictures/images/modulo1.JPG',
-        description: 'Modulo de muro verde'
+        description: 'Módulo de muro verde'
     },
     {
         link: './assets/pictures/images/modulo2.jpg',
@@ -32,14 +32,6 @@ var list = [
         description: 'Showgarden South Africa'
     },
     {
-        link: './assets/pictures/images/showgarden2.jpg',
-        description: 'Showgarden South Africa'
-    },
-    {
-        link: './assets/pictures/images/natural.jpg',
-        description: 'Showgarden South Africa'
-    },
-    {
         link: './assets/pictures/images/garden.jpg',
         description: 'Showgarden South Africa'
     },
@@ -48,11 +40,19 @@ var list = [
         description: 'Showgarden South Africa'
     },
     {
+        link: './assets/pictures/images/showgarden2.jpg',
+        description: 'Showgarden South Africa'
+    },
+    {
+        link: './assets/pictures/images/natural.jpg',
+        description: 'Showgarden South Africa'
+    },
+    {
         link: './assets/pictures/images/jardin2.JPG',
         description: 'Fraccionamiento Milos en progreso'
     },
     {
-        link: './assets/pictures/images/jardin.JPG',
+        link: './assets/pictures/images/jardin4.jpg',
         description: 'Fraccionamiento Milos'
     },
     {
@@ -60,7 +60,7 @@ var list = [
         description: 'Fraccionamiento Milos'
     },
     {
-        link: './assets/pictures/images/jardin4.jpg',
+        link: './assets/pictures/images/jardin.JPG',
         description: 'Fraccionamiento Milos'
     },
     {
@@ -100,7 +100,7 @@ var list = [
         description: 'Fábrica de Tabaco'
     },
     {
-        link: './assets/pictures/images/Bug.JPG',
+        link: './assets/pictures/images/bugtest.jpg',
         description: 'Casa muestra en Bugambilia'
     },
     {
@@ -132,8 +132,8 @@ var list = [
         description: 'Sendas del Naranjo'
     },
     {
-        link: './assets/pictures/images/sji2.JPG',
-        description: 'San José de Iturbide'
+        link: './assets/pictures/images/ele.JPG',
+        description: 'San José Iturbide'
     },
     {
         link: './assets/pictures/images/sji3.JPG',
@@ -146,10 +146,6 @@ var list = [
     {
         link: './assets/pictures/images/sji7.jpg',
         description: 'San José de Iturbide'
-    },
-    {
-        link: './assets/pictures/images/ele.JPG',
-        description: 'San José Iturbide'
     },
     {
         link: './assets/pictures/images/virreyes1.JPG',
