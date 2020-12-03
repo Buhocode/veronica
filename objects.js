@@ -32,6 +32,14 @@ var list = [
         description: 'Showgarden South Africa'
     },
     {
+        link: './assets/pictures/images/garden4.jpg',
+        description: 'Showgarden South Africa'
+    },
+    {
+        link: './assets/pictures/images/garden5.jpg',
+        description: 'Showgarden South Africa'
+    },
+    {
         link: './assets/pictures/images/garden.jpg',
         description: 'Showgarden South Africa'
     },
